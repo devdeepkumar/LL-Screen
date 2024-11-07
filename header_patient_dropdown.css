@@ -1,0 +1,341 @@
+/* 
+=====================================
+? => User Section Css Starts            
+=====================================
+*/
+
+.user-container {
+  background-color: #d9d9d94d;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+.user-container h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #003e75;
+}
+
+.female-card:hover .card-hover {
+  display: block;
+}
+
+.male-card:hover .card-hover {
+  display: block;
+}
+.nav-icon-container {
+  position: relative;
+}
+.card-hover.container {
+  width: 350px;
+  display: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+}
+
+.female-card,
+.male-card:hover {
+  cursor: pointer;
+}
+
+.card-hover.container .blank-color {
+  height: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 198, 255, 0.25) 0%,
+    rgba(0, 147, 210, 0.8) 100%
+  );
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image-container .image {
+  border-radius: 2px;
+  background: #00b3ff33;
+}
+
+.card-div span {
+  font-size: 8px;
+  font-weight: 600;
+}
+.card-hover img {
+  max-width: 100%;
+}
+.card-hover.container .details-container {
+  margin-inline: 1rem;
+}
+
+.card-hover .profile h2 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 10px;
+}
+
+.card-hover .profile p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.card-hover .profile {
+  position: relative;
+  top: -15px;
+}
+
+.details-container p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+
+  span {
+    font-weight: 500;
+  }
+}
+
+/* 
+=====================================
+! => User Section Css Ends            
+=====================================
+*/
+
+
+
+
+
+
+/* 
+=====================================
+? => Customer SECTION  Css Starts            
+=====================================
+*/
+
+.customer-section {
+  margin-block: 1rem;
+  background: #f6f6f6;
+}
+
+.customer-section .image img {
+  max-width: 145% !important;
+  height: 91px;
+}
+
+.customer-section p {
+  color: #0eb9af;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.customer-section .grayspan {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0eb9af;
+  text-transform: uppercase;
+}
+
+.customer-section span {
+  font-size: 8px;
+  font-weight: 600;
+  line-height: 13px;
+  color: #299fe9;
+}
+
+.customer-section .purple-color span {
+  color: #f32c7d;
+}
+
+/* 
+=====================================
+! => Customer SECTION  Css Ends            
+=====================================
+*/
+
+
+
+/* 
+=====================================
+? => POPUP SECTION  Css Starts            
+=====================================
+*/
+
+
+.popup-heading {
+  background: #1EAFEB;
+
+  padding: 10px;
+}
+.popup-heading p{
+  font-weight: 600;
+    color: white;
+    font-size: 25px; 
+
+}
+
+.popup-main {
+  background-color: #ffffff;
+}
+
+.popup-first-div {
+  background: #f4f4f4;
+}
+.service-section{
+  background: #f4f4f4;
+}
+.popup-second-div .btn-section button {
+  padding: 0.5rem;
+  border: 1px solid gray;
+  font-weight: 700;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: none;
+  padding-inline: 2rem;
+}
+
+.popup-container input[type="text"] {
+  width: 100%;
+  background: #ebebeb;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.destribution-details{
+  color: #0EB9AF;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+
+/* 
+=====================================
+! => POPUP SECTION  Css Ends            
+=====================================
+*/
+
+
+
+
+/* 
+=====================================
+? => SERVICES SECTION  Css Starts            
+=====================================
+*/
+
+.service-heading {
+  background: #1eafeb;
+  color: white;
+  padding: 10px;
+
+  p {
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+  }
+}
+
+.services-table p {
+  color: #0eb9af;
+  font-size: 20px;
+  font-weight: 600;
+  margin-block: 18px;
+}
+
+.service-btn{
+  color: #0EB9AF;
+;
+}
+.pharmacy-btn{
+ background: #0EB9AF;
+ color: #fff;
+ margin-left: 5px;
+}
+
+.service-section thead{
+  background: #11CDEF;
+  color: white;
+  
+  th{
+    font-weight: 600;
+  }
+}
+.service-section tbody{
+  background: #EFEFEF;
+
+}
+
+
+
+/* 
+=====================================
+! => SERVICES SECTION  Css Ends            
+=====================================
+*/
+
+
+
+
+
+
+/* 
+=====================================
+? => Daily-Summary Css Starts            
+=====================================
+*/
+
+.daily-summary img{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+
+}
+
+.daily-summary .daily-summary-heading {
+  color: #2EC4B6;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.daily-summary .sumarry-right-col{
+  width: 100%;
+  background: #F1F1F1;
+
+    p{
+      font-weight: 500;
+    }
+
+    span{
+      font-size: 25px;
+      font-weight: 700;
+      color: #0EB9AF;
+;
+    }
+}
+
+.daily-summary thead{
+  background: #11CDEF;
+  color: white;
+
+}
+
+.daily-summary tbody td{
+  font-size: 14px;
+  padding-inline: 10px;
+  color: #616161;
+}
+
+
+.daily-summary tr:nth-child(even) {
+  background-color: #f2f2f2; /* Change this to any color you like */
+}
+
+
+/* 
+=====================================
+! => Daily-Summary Css Ends            
+=====================================
+*/
